@@ -1,3 +1,10 @@
+# idea
+.idea/*
+
+#javascript
+*.js
+.js.map
+
 # Logs
 logs
 *.log
