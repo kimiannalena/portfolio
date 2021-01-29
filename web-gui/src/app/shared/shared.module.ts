@@ -2,13 +2,15 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialModule } from "../material/material.module";
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import {RouterModule} from "@angular/router";
 
 
 @NgModule({
   declarations: [SidenavComponent],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    RouterModule
   ],
   exports: [
     SidenavComponent

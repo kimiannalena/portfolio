@@ -1,10 +1,11 @@
 // Importing `Work Sans` font
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500&display=swap");
+@import "custom-palette";
 
 // Default theme
-$theming-material-components-primary: mat-palette($mat-indigo);
-$theming-material-components-accent: mat-palette($mat-pink, A200, A100, A400);
-$theming-material-components-warn: mat-palette($mat-red);
+$theming-material-components-primary: mat-palette($gibraltar-sea, 400);
+$theming-material-components-accent: mat-palette($ashy-green, 300, 500, 700);
+$theming-material-components-warn: mat-palette($young-raddish, 700);
 
 $theming-material-components-theme: mat-light-theme(
     $theming-material-components-primary,
@@ -13,9 +14,9 @@ $theming-material-components-theme: mat-light-theme(
 );
 
 // Defining an alternate dark theme.
-$dark-primary: mat-palette($mat-blue-grey);
-$dark-accent: mat-palette($mat-amber, A200, A100, A400);
-$dark-warn: mat-palette($mat-deep-orange);
+$dark-primary: mat-palette($gibraltar-sea, 500);
+$dark-accent: mat-palette($ashy-green, 500, 700, 900);
+$dark-warn: mat-palette($young-raddish, 700);
 $dark-theme: mat-dark-theme(
     (
       color: (
@@ -26,7 +27,7 @@ $dark-theme: mat-dark-theme(
     )
 );
 
-// ? 3. Define a custom heading typography config
+// Defining a custom heading typography config
 $heading-font-family: "'Work Sans', sans-serif";
 $typography: mat-typography-config(
   $display-4: mat-typography-level(112px, $font-family: $heading-font-family),
