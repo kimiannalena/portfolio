@@ -1,4 +1,5 @@
 # Portfolio
+[![Build Status](https://travis-ci.com/kimiannalena/portfolio.svg?branch=main)](https://travis-ci.com/kimiannalena/portfolio)
 
 My portfolio for archiving purposes and fun with website stuff.
 
