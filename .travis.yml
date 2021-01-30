@@ -20,12 +20,3 @@ before_script:
 
 script:
   - ng build
-
-deploy:
-  provider: pages
-  cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep_history: true
-  local_dir: build
-  on:
-    branch: prod
