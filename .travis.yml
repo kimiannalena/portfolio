@@ -21,8 +21,6 @@ before_script:
 script:
   - ng build
 
-<<<<<<< HEAD
-=======
 deploy:
   provider: pages
   cleanup: true
@@ -31,4 +29,3 @@ deploy:
   local_dir: build
   on:
     branch: prod
->>>>>>> copied web gui to root
