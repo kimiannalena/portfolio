@@ -8,7 +8,9 @@
     </p>
   </div>
 
-  <button style="margin: 1rem" mat-raised-button color="primary">Primary</button>
-  <button style="margin: 1rem" mat-raised-button color="accent">Accent</button>
-  <button style="margin: 1rem" mat-raised-button color="warn">Warn</button>
+  <button style="margin: 1rem" mat-raised-button color="primary" routerLink="/">Primary</button>
+  <button style="margin: 1rem" mat-raised-button color="accent" routerLinkActive="active" routerLink="/projects">Accent</button>
+  <button style="margin: 1rem" mat-raised-button color="warn" routerLinkActive="active" routerLink="/projects">Warn</button>
+
+  <router-outlet></router-outlet>
 </app-sidenav>
