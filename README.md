@@ -1,5 +1,6 @@
 # Portfolio
-[![Build Status](https://travis-ci.com/kimiannalena/portfolio.svg?branch=main)](https://travis-ci.com/kimiannalena/portfolio)
+[![Build Status](https://travis-ci.com/kimiannalena/portfolio.svg?branch=prod)](https://travis-ci.com/kimiannalena/portfolio)
+
 # WebGui
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
