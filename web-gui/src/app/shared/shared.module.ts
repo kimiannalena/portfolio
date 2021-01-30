@@ -4,14 +4,17 @@ import { MaterialModule } from '../material/material.module';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import {RouterModule} from '@angular/router';
 import { FooterComponent } from './components/footer/footer.component';
+import { ImpressumComponent } from './components/impressum/impressum.component';
+import {MatRippleModule} from "@angular/material/core";
 
 
 @NgModule({
-  declarations: [SidenavComponent, FooterComponent],
+  declarations: [SidenavComponent, FooterComponent, ImpressumComponent],
   imports: [
     CommonModule,
     MaterialModule,
-    RouterModule
+    RouterModule,
+    MatRippleModule
   ],
   exports: [
     SidenavComponent,

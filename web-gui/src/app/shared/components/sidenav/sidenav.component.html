@@ -1,6 +1,6 @@
 <div [class.dark-theme]="isDark"> <!-- ? we're wrapping whole content in a div, to handle dark/light theme -->
   <mat-toolbar [color]="themeColor">
-    <span>Kimberly Munjal</span>
+    <button mat-flat-button [color]="themeColor" routerLink="/" class="mat-dialog-title">Kimberly Munjal</button>
     <span class="example-spacer"></span>
 
     <!-- ? below button will help us change the theme at run-time. -->
@@ -45,9 +45,9 @@
     <mat-sidenav #sidenav mode="side" opened>
       <mat-nav-list>
         <h1>Menu</h1>
-        <a mat-list-item href="#">Skills</a>
+        <a mat-list-item href="#" routerLink="/skills">Skills</a>
         <a mat-list-item href="#" routerLink="/projects">Projects</a>
-        <a mat-list-item href="#">About Me</a>
+        <a mat-list-item href="#" routerLink="/about">About Me</a>
       </mat-nav-list>
     </mat-sidenav>
 
