@@ -21,3 +21,14 @@ before_script:
 script:
   - ng build
 
+<<<<<<< HEAD
+=======
+deploy:
+  provider: pages
+  cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep_history: true
+  local_dir: build
+  on:
+    branch: prod
+>>>>>>> copied web gui to root
