@@ -1,5 +1,8 @@
 # Portfolio
 [![Build Status](https://travis-ci.com/kimiannalena/portfolio.svg?branch=main)](https://travis-ci.com/kimiannalena/portfolio)
+# WebGui
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
 
 My portfolio for archiving purposes and fun with website stuff.
 
